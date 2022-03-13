@@ -1,0 +1,25 @@
+{
+  "name": "json_sql_query",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/main.js",
+    "start": "node src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ngneat/falso": "^3.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "fs-extra": "^10.0.1",
+    "json-sql-query": "^2.0.0",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
